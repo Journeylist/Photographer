@@ -88,7 +88,7 @@ h1{
 
 /*-----Background-----*/
 
-.bg-primary1{
+.bg-color{
     background-color: #C8A27A;
 }
 
@@ -96,9 +96,8 @@ h1{
     background-image: url(./images/banner-hero.png);
     background-size: cover;
     height: 80vh;
-    background-position: center;
+    background-position: left bottom;
 }
-
 
 /*----- Bouton -----*/
 
@@ -138,12 +137,20 @@ h1{
     flex-wrap: wrap;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .between{
     justify-content: space-between;
 }
 
 .justify-center{
     justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
 }
 
 
@@ -154,6 +161,7 @@ h1{
 .align-center{
     align-items: center;
 }
+
 
 .gap8{
     gap: 8px;
@@ -219,6 +227,23 @@ h1{
 
 /*----- Padding -----*/
 
+.pt-32{
+    padding-top: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+
 .pad816{
     padding: 8px 16px;
 }
@@ -264,4 +289,16 @@ h1{
 
 .height100{
     height: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* le survol */
+hover{
+  opacity:1;
+}
+.a-img-txt:hover .a-img{
+  filter:invert(0);
 }
