@@ -1,0 +1,267 @@
+/*----- Import -----*/
+
+/*----- RESET -----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary1: ;
+    --primary2:  ;
+    --primary3:  ;
+    --bdrad1: ;
+    --bdrad2: ;
+    --height1: ;
+    --height2: ;
+    --width1: ;
+    --width2: ;
+}
+
+/*----- Selecteur -----*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: #3E2C23;
+}
+
+/*----- Color -----*/
+
+.primary1{
+ 
+}
+
+.primary2{
+  
+}
+
+
+/*----- Text Color -----*/
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.text.primary1{
+    color: #3E2C23;
+}
+
+/*----- Font size -----*/
+
+.font8{
+    font-size: 8px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.font24{
+    font-size: 24px;
+}
+
+.font32{
+    font-size: 32px;
+}
+
+.font64{
+    font-size: 64px;
+}
+
+/*----- Typographie -----*/
+.no-decoration{
+    text-decoration: none;
+}
+
+/*-----Background-----*/
+
+.bg-primary1{
+    background-color: #C8A27A;
+}
+
+.bg-hero{
+    background-image: url(./images/banner-hero.png);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+
+
+/*----- Bouton -----*/
+
+.btn1{
+    color: white;
+    background-color: #3E2C23;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ .btn2{
+    color: white;
+    background-color: #3E2C23 ;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+ }
+
+.btn3{
+    background-color: ;
+    height: ;
+    width: ;
+    border-radius: ; 
+}
+
+/*----- Flex -----*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+
+.around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap8{
+    gap: 8px;
+}
+
+.gap16{
+    gap: 16px;
+}
+
+.gap16{
+    gap: 16px;
+}
+
+.gap32{
+    gap: 32px;
+}
+
+.gap64{
+    gap: 64px;
+}
+
+/*----- Margin -----*/
+
+.mt-top-auto{
+    margin-top: auto;
+}
+
+.mb-bot-auto{
+    margin-bottom: auto;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+/*----- Padding -----*/
+
+.pad816{
+    padding: 8px 16px;
+}
+
+.pad1632{
+    padding: 16px 32px;
+}
+
+/*----- Classes de largeur -----*/
+
+.w20{
+    width: 20%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w45{
+    width: 45%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+/*----- Experimental Width-----*/
+
+.w50-gap{
+    width: calc(50% - 1 * var(--gap) / 2);
+}
+
+/*----- Conteneur -----*/
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.height100{
+    height: 100%;
+}
