@@ -1,4 +1,7 @@
 /*----- Import -----*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*----- RESET -----*/
 
@@ -16,20 +19,47 @@ ul{
 
 a{
     text-decoration: none;
+    display: inline-block;
 }
 
 h1{
     font-size: 48px;
     color: #3E2C23;
+    font-family: "Montserrat", sans-serif;
 }
+
 h2{
     margin-top: 32px;
     margin-bottom: 32px;
     text-align: center;
     font-size: 48px;
+    font-family: "Montserrat", sans-serif;
 }
 
-/*----- Color -----*/
+p{
+    font-family: "Lato", sans-serif;
+}
+
+input{
+    background-color: pink;
+    height: 30px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+/*----- Icon Phosphor -----*/
+
+.ph-star{
+    color:gold;
+}
+
+.ph-instagram-logo{
+    font-size: 64px;
+}
+
+.ph-linkedin-logo{
+    font-size: 64px;
+}
 
 /*----- Text Color -----*/
 
@@ -72,9 +102,17 @@ h2{
     text-decoration: none;
 }
 
+/*----- Text Comportement -----*/
+
 .txtleft{
     text-align: left;
 }
+
+.text-center{
+    text-align: center;
+}
+
+
 /*-----Background-----*/
 
 .bg-color{
@@ -89,11 +127,12 @@ h2{
 }
 
 .card{
-    background-color: white;
-    border: solid 2px white ;
+    background-color: #C8A27A;
+    border: 2px #C8A27A ;
     padding: 8px 16px;
     border-radius: 25px;
-    box-shadow: 0 0 15px 5px;
+    box-shadow: 0 0 15px 1px;
+    height: 300px;
 }
 
 /*----- Bouton -----*/
@@ -107,17 +146,32 @@ h2{
     display: inline-block;
     text-align: center;
     padding: 16px;
+    border: solid 2px black;
 }
 
  .btn2{
     color: white;
-    background-color: #3E2C23 ;
-    height: 40px;
+    background-color: #3E2C23;
+    height: 50px;
     width: 200px;
     border-radius: 15px;
     display: inline-block;
     text-align: center;
-    padding: 8px;
+    padding: 16px;
+    border: solid 1px black;
+ }
+
+ .btn3{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    display: inline-block;
+    height: 50px;
+    padding: 16px;
+ }
+
+ /*----- Hoover -----*/
+ a:hover{ 
+    color: aqua;
  }
 
 /*----- Flex -----*/
@@ -174,14 +228,6 @@ h2{
 }
 
 /*----- Margin -----*/
-
-.mt-top-auto{
-    margin-top: auto;
-}
-
-.mb-bot-auto{
-    margin-bottom: auto;
-}
 
 .mt-8{
     margin-top: 8px;
@@ -281,15 +327,27 @@ h2{
     height: 100%;
 }
 
-.text-center{
-    text-align: center;
+/*bento*/
+:root{
+    --gap: 16px;
+}
+.large-6 {
+  width: calc(50% - 1 * var(--gap) / 2);
 }
 
-/* le survol */
-hover{
-  opacity:1;
+.bento img{
+    height: 100%;
+}
+.relative{
+    position: relative;
+    overflow: hidden;
+}
+.legende{
+    position: absolute;
+    bottom: -100%;
+    transition: bottom 1s ease;
 }
 
-.a-img-txt:hover .a-img{
-  filter:invert(0);
+.relative:hover .legende{
+    bottom: 0;
 }

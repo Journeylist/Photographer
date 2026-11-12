@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clara Lenoir Photographe</title>
-    <link rel="stylesheet" href="https://phosphoricons.com?q=user">
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!--Header-->
+
     <header class="flex between align-center pad816 container">
         <div>
-            <img height="100px" width="150px" src="./images/logo 1.png" alt="Logo du site">
+            <img src="./images/logo.png" alt="Logo du site">
         </div>
         <div>
             <nav>
@@ -22,6 +34,8 @@
             </nav>
         </div>
     </header>
+
+<!--Banner Hero-->
 
     <section class="bg-hero">
         <div class="height100 container">
@@ -42,7 +56,9 @@
         </div>
     </section>
 
-    <section class="bg-color">
+<!--Valeurs-->
+
+    <section class="bg-color mt-64">
         <div class="flex pt-32 pb-32 around container">
             <div class="w20 flex justify-center">
                 <img height=50px width=50px src="./images/Vector 1.png" alt="icone approche humaine">
@@ -63,7 +79,9 @@
         </div>
     </section>
 
-    <section id="Prestation" class="container">
+<!--Prestations-->
+
+    <section id="Prestation" class="container mb-32">
         <h2>Prestation</h2>
         <div class="flex around align-center">
             <img src="./images/nathanael-desmeules-r5GDJ0V_4D8-unsplash 1.png" alt="photo motocross freestyle">
@@ -90,46 +108,127 @@ Mettez votre image au service de vos projets.</p>
             </div>  
         </div>
     </section>
-    <section>
-        <h2 class="text-center mt-32 mb-32">Galerie</h2>
-        <div class="flex justify-center gap16">
-            <img width=300px height=300px src="./images/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="">
-            <img width=300px height=300px src="./images/portraits-lumiere.png" alt="">
-            <img width=300px height=300px src="./images/corporate-novatech.png" alt="">
-        </div>
-        <div class="flex justify-center gap 16 mt-16">
-            <img width=300px height=300px src="./images/voyage-islande.png" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+
+<!--Galerie-->
+
+    <section class="bg-color">
+        <div class="container pt-32 pb-32">
+            <h2 id="Galerie">Galerie</h2>
+            <div class="flex justify-center gap16 bento">
+                <div class="large-6 relative">
+                    <img src="./images/portraits-lumiere.png" alt="" class="w100">
+                    <div class="legende">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error at suscipit itaque soluta cum sapiente unde, delectus molestias cumque ex sequi! Rerum, possimus obcaecati voluptatem illum asperiores aperiam voluptate nobis.</p>
+                    </div>
+                </div>
+                <div class="flex gap16 large-6">
+                    <div class="w100">
+                        <img class="w100" src="./images/mariage.png" alt="">
+                    </div>
+                    <div class="w100">
+                        <img class="w100" src="./images/voyage-islande.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
-    <section class="container">
-        <h2>Témoignages Clients</h2>
+
+<!--Avis-->
+
+    <section class="container mt-32 mb-32">
+        <h2 id="Avis">Témoignages Clients</h2>
         <div class="flex between mt-32">
-            <div class=" w30 card flex align-center justify-center">
-                <p class="mt-16">Prenon: Amélie</p>
-                <p class="mt-16">Type de prestation: Mariage</p>
-                <p class="mt-16">Avis: Les photos de notre mariage sont magnifiques ! Clara a su saisir les émotions avec
-beaucoup de sensibilité. Chaque image raconte une histoire.</p>
-            </div>
-            <div class="w30 card flex align-center justify-center">
-                <p class="mt-16">Prenom: Julien</p>
-                <p class="mt-16">Type Prestation: Portrait professionne</p>
+            <div class="w30 card flex">
+                <div class="flex align-center gap16">
+                    <div>
+                        <i class="ph ph-user font32 gap16"></i>
+                    </div>
+                    <div>
+                        <p class="mt-16">Prenon: Julien</p>
+                    </div>
+                </div>
+                <p class="mt-16">Type de Prestation: Portrait professionnel</p>
+                <div>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                </div>
                 <p class="mt-16">Avis: Un super moment passé en séance ! Clara met à l’aise et sait diriger sans forcer.
 Résultat : des portraits naturels et percutants.</p>
             </div>
-            <div class="w30 card flex align-center justify-center">
-                <p class="mt-16">Prenom: Nadia</p>
-                <p class="mt-16">Type Prestation: Shooting famille</p>
+                        <div class=" w30 card flex">
+                <div class="flex align-center gap16">
+                    <div>
+                        <i class="ph ph-user font32 gap16"></i>
+                    </div>
+                    <div>
+                        <p class="mt-16">Prenon: Amélie</p>
+                    </div>
+                </div>
+                <p class="mt-16">Type de prestation: Mariage</p>
+                <div>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                </div>
+                <p class="mt-16">Avis: Les photos de notre mariage sont magnifiques ! Clara a su saisir les émotions avec
+beaucoup de sensibilité. Chaque image raconte une histoire.</p>
+            </div>
+            <div class="w30 card flex">
+                <div class="flex align-center gap16">
+                    <div>
+                        <i class="ph ph-user font32 gap16"></i>
+                    </div>
+                    <div>
+                        <p class="mt-16">Prenon: Nadia</p>
+                    </div>
+                </div>
+                <p class="mt-16">Type de Prestation: Shooting famille</p>
+                <div>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                    <i class="ph-fill ph-star"></i>
+                </div>
                 <p class="mt-16">Avis: Nous avons adoré la séance en extérieur. Les enfants se sont amusés et les photos
 sont pleines de vie et d’émotion.</p>
             </div>
         </div>
     </section>
 
-    <footer>
+<!--Footer-->
 
+    <footer class="mt-64 bg-color">
+        <div class="flex between container pt-32 pb-32">
+            <div>
+                <h3 class="font32">Travaillons ensemble!</h2>
+                <p class="mt-16">Une idée, un projet, une envie de collaboration?</p>
+                <p>Contactez moi, je serais ravie d'en discuter et de voir comment avancer ensemble.</p>
+                <p>Laissez votre adresse de messagerie, je vous rapellerai dans les plus brefs délais</p>
+                <p class="mt-16 mb-16">Clara.</p>
+                <i class="ph ph-instagram-logo"></i>
+                <i class="ph ph-linkedin-logo"></i>
+                <div class="mt-16">   
+                 <a class="text-black" href="">Mention legales @2026 - Clara LENOIR - Photographe</a>   
+                </div>  
+            </div>
+            <div>
+                <div>
+                    <input placeholder="Nom" type="text">
+                </div>
+                <div>
+                    <input class="mt-16" placeholder="Email" type="text">
+                </div>
+                <div>
+                    <a class="mt-16 btn3" href="">Envoyer</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
