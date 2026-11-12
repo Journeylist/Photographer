@@ -1,22 +1,11 @@
 /*----- Import -----*/
 
 /*----- RESET -----*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root{
-    --primary1: ;
-    --primary2:  ;
-    --primary3:  ;
-    --bdrad1: ;
-    --bdrad2: ;
-    --height1: ;
-    --height2: ;
-    --width1: ;
-    --width2: ;
 }
 
 /*----- Selecteur -----*/
@@ -30,20 +19,17 @@ a{
 }
 
 h1{
-    text-align: center;
+    font-size: 48px;
     color: #3E2C23;
+}
+h2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 48px;
 }
 
 /*----- Color -----*/
-
-.primary1{
- 
-}
-
-.primary2{
-  
-}
-
 
 /*----- Text Color -----*/
 
@@ -55,7 +41,7 @@ h1{
     color: black;
 }
 
-.text.primary1{
+.text-primary1{
     color: #3E2C23;
 }
 
@@ -86,6 +72,9 @@ h1{
     text-decoration: none;
 }
 
+.txtleft{
+    text-align: left;
+}
 /*-----Background-----*/
 
 .bg-color{
@@ -99,17 +88,25 @@ h1{
     background-position: left bottom;
 }
 
+.card{
+    background-color: white;
+    border: solid 2px white ;
+    padding: 8px 16px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 5px;
+}
+
 /*----- Bouton -----*/
 
 .btn1{
     color: white;
     background-color: #3E2C23;
-    height: 40px;
+    height: 50px;
     width: 200px;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
 }
 
  .btn2{
@@ -118,17 +115,10 @@ h1{
     height: 40px;
     width: 200px;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
  }
-
-.btn3{
-    background-color: ;
-    height: ;
-    width: ;
-    border-radius: ; 
-}
 
 /*----- Flex -----*/
 
@@ -149,8 +139,8 @@ h1{
     justify-content: center;
 }
 
-.flex-end{
-    justify-content: flex-end;
+.end{
+    align-items: flex-end;
 }
 
 
@@ -299,6 +289,7 @@ h1{
 hover{
   opacity:1;
 }
+
 .a-img-txt:hover .a-img{
   filter:invert(0);
 }
